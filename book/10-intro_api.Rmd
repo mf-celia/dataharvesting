@@ -41,7 +41,7 @@ res <- api_amazon()
 ```
 
 ::: {.rmdnote}
-Do you see the print out with the local URL to the `__docs__` of the REST API? This *my* local URL. This won't work on your computer, so don't try to go to that website: you'll get that the URL doesn't exit. You need to install the `scrapex` package and run the `api_amazon()` function, copy *your* local API path onto your web browser and then you'll see the same thing as I do.
+Do you see the print out with the local URL to the `__docs__` of the REST API? This is *my* local URL. This won't work on your computer, so don't try to go to that website: you'll get that the URL doesn't exist. You need to install the `scrapex` package and run the `api_amazon()` function, copy *your* local API path onto your web browser and then you'll see the same thing as I do.
 :::
 
 Since the philosophy of the `scrapex` package is to create both websites and REST APIs that can be reproduced in the long term, the REST APIs you'll see in this book are *fake*. This means they contain made up data and are deployed locally in your computer behind the scenes.
